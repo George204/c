@@ -1,4 +1,0 @@
-cout << "tekst <<endl;
-cout<<fixed<<setprecision(n)<<liczba_zmiennoprzecinkowa;
-getch();
-system("cls")
