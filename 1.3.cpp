@@ -7,11 +7,11 @@
 using namespace std;
 int main()
 {
-	cout<< "czeœæ";
+	cout<< "czeï¿½ï¿½";
 	sleep(5);system("cls");
 	float polepow = pow(5.875,2)*6;
 	float obj = pow(5.875,3);
-	cout<<fixed<<setprecision(2)<<"pole pow.:"<<polepow<<endl<<"objêtoœæ:"<<obj;
+	cout<<fixed<<setprecision(2)<<"pole pow.:"<<polepow<<endl<<"objï¿½toï¿½ï¿½:"<<obj;
 	getch();
 	return 0;
 }
