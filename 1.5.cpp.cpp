@@ -12,6 +12,14 @@ using namespace std;
 int main()
 {
 	setlocale(LC_CTYPE, "Polish");
+	
+	int liczby[] = {7,12,16,33000};
+	cout<<sizeof(liczby)<<liczby[3];
+	
+
+	
+	
+/*	
 	float bok = 7.225;
 	cout<<"obliczanie dla boku "<<bok<<endl;
 	
@@ -20,7 +28,7 @@ int main()
 	float pole = pow(bok,2)*6;
 	
 	cout<<"P="<<pole<<endl<<"O="<<obj<<endl<<"S="<<kraw;
-	
+*/	
 	getch();
 	return 0;
 }
