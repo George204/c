@@ -13,8 +13,8 @@ int main()
 {
 	setlocale(LC_CTYPE, "Polish");
 	
-	int liczby[] = {7,12,16,33000};
-	cout<<sizeof(liczby)<<liczby[3];
+	int liczby[] = {7,12,16};
+	int ll = sizeof(liczby)/sizeof(liczby[0]);
 	
 
 	
