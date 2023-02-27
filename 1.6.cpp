@@ -5,16 +5,16 @@
 #include <cmath>
 #include <unistd.h>
 #include <locale.h>
-#define bok 7.225
+#define ndk cout<<"naciœnij dowolny klawisz";getch();
+
 using namespace std;
 int main()
 {
-	cout<<"obliczenia dla bok="<<bok<<endl;
+	int a = 1;
 	setlocale(LC_CTYPE, "Polish");
-	float pole = pow(bok,2)*6;
-	float vol = pow(bok,3);
-	float kraw = bok*12;
-	cout<<fixed<<setprecision(2)<<"P="<<pole<<endl<<"O="<<vol<<endl<<"S="<<kraw;
+	cout<<a>>a<<a;
+	ndk;
 	getch();
 	return 0;
 }
+

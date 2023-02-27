@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-	cout<< "czeÅ›Ä‡"<<endl<<endl<<endl<<"NaciÅ›nij dowolny klawisz";
+	cout<< "czeœæ"<<endl<<endl<<endl<<"Naciœnij dowolny klawisz";
 	getch();system("cls");
 	cout<< "dowidzenia";
 	return 0;

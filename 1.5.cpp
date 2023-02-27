@@ -5,16 +5,16 @@
 #include <cmath>
 #include <unistd.h>
 #include <locale.h>
-#define bok 7.225
+#define a 7.0
+#define b 12.0
+#define c 16.0
+
 using namespace std;
 int main()
 {
-	cout<<"obliczenia dla bok="<<bok<<endl;
 	setlocale(LC_CTYPE, "Polish");
-	float pole = pow(bok,2)*6;
-	float vol = pow(bok,3);
-	float kraw = bok*12;
-	cout<<fixed<<setprecision(2)<<"P="<<pole<<endl<<"O="<<vol<<endl<<"S="<<kraw;
+	float avg = (a+b+c)/3;
+	cout<<fixed<<setprecision(2)<<"œrednia="<<avg;
 	getch();
 	return 0;
 }

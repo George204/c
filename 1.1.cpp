@@ -9,3 +9,4 @@ int main()
 	cout<<fixed<<setprecision(2)<<wynik;
 	getch();
 }
+

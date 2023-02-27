@@ -4,14 +4,16 @@
 #include <conio.h>
 #include <cmath>
 #include <unistd.h>
+#include <locale.h>
 using namespace std;
 int main()
 {
-	cout<< "czeï¿½ï¿½";
-	sleep(5);system("cls");
+	setlocale(LC_CTYPE, "Polish");
+	cout<< "czeœæ"<<endl<<"naciœnij dowolny klawisz";
+	getch();system("cls");
 	float polepow = pow(5.875,2)*6;
 	float obj = pow(5.875,3);
-	cout<<fixed<<setprecision(2)<<"pole pow.:"<<polepow<<endl<<"objï¿½toï¿½ï¿½:"<<obj;
+	cout<<fixed<<setprecision(2)<<"pole pow.:"<<polepow<<endl<<"objêtoœæ:"<<obj;
 	getch();
 	return 0;
 }
