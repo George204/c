@@ -5,16 +5,25 @@
 #include <cmath>
 #include <unistd.h>
 #include <locale.h>
-#define ndk cout<<"naciœnij dowolny klawisz";getch();
+#define ndk cout<<"naciœnij dowolny klawisz"<<endl<<endl;getch();
 
 using namespace std;
 int main()
-{
-	int a = 1;
+{while(true) {
+	float a;
+	cout<<"a:";
+	cin>>a;
+	float b;
+	cout<<"b:";
+	cin>>b;
+	float c;
+	cout<<"c:";
+	cin>>c;
 	setlocale(LC_CTYPE, "Polish");
-	cout<<a>>a<<a;
+	float pole = 2*(a*b+b*c+c*a);
+	float obj = a*b*c;
+	float kraw = 4*(a+b+c);
+	cout<<fixed<<setprecision(2)<<"Pole="<<pole<<endl<<"Objêtoœæ="<<obj<<endl<<"krawêdzie="<<kraw<<endl;
 	ndk;
-	getch();
-	return 0;
-}
+}return 0;}
 
