@@ -5,18 +5,18 @@
 #include <cmath>
 #include <unistd.h>
 #include <locale.h>
-#define ndk cout<<endl<<"naciœnij dowolny klawisz";getch();cout<<"\r                                      \r\n";
+#define ndk cout<<endl<<"naciï¿½nij dowolny klawisz";getch();cout<<"\r                                      \r\n";
 
 using namespace std;
 int main()
 {
 	setlocale(LC_CTYPE, "Polish");
-	float a=5,b=2,c=3;
+	float a=5,b=6,c=7;
 	if(a==0){
-		if(b==c){cout<<"równanie tozszamoœciowe";}
-		else if (b!=c){cout<<"równaie sprzeczne";}
+		if(b==c){cout<<"rï¿½wnanie tozszamoï¿½ciowe";}
+		else if (b!=c){cout<<"rï¿½wnaie sprzeczne";}
 	}
-	else{cout<<"x="<<(c-b/a);}
+	else{cout<<"x="<<((c-b)/a);}
 	ndk;
 	return 0;
 }
